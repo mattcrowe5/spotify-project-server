@@ -1,0 +1,25 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "object-curly-spacing": ["error", "always"],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "no-unused-expressions": 1,
+    "camelcase": 1,
+    "no-param-reassign": 1,
+    "no-shadow": 1,
+    "eqeqeq": 1,
+    "no-useless-escape": 1,
+    "consistent-return": 1,
+    "prefer-template": 1,
+    "no-unused-vars": 1
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true,
+    "mocha": true
+  }
+}
